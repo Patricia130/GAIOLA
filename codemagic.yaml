@@ -32,8 +32,8 @@ workflows:
           echo "📦 Builds .apk e .aab gerados com sucesso"
 
     artifacts:
-      - app/build/outputs/**/*.apk
-      - app/build/outputs/**/*.aab
+      - app/build/outputs/apk/release/app-release.apk
+      - app/build/outputs/bundle/release/app-release.aab
 
     publishing:
       email:
